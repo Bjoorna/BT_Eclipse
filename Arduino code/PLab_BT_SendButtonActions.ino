@@ -5,8 +5,8 @@
 #include <PLabBTSerial.h>
 #include "PLab_PushButton.h"
 
-const int txPin 2  // Tx pin on Bluetooth unit
-const int rxPin 3  // Rx pin on Bluetooth unit
+const int txPin = 2;  // Tx pin on Bluetooth unit
+const int rxPin = 3;  // Rx pin on Bluetooth unit
 
 const int redButtonPin = 6;     // the number of the pushbutton pin
 const int greenButtonPin = 7;   // the number of the pushbutton pin
