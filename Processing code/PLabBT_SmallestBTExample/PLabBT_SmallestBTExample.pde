@@ -30,11 +30,9 @@ void bindPLabBridge (PLabBridge bridge) {
 }
 
 void sendMessage(String message, int value) {
-  pBridge.send(message + "," + value);
-}
-
-void sendMessage(String message) {
-  pBridge.send(message);
+  value = int(value);
+  String m = message + "," + value;
+  pBridge.send(m);
 }
 
 void initializeSerial() {
